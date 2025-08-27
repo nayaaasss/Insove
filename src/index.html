@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insove || We care about your health</title>
     <!-- Manifest.json -->
-    <link rel="stylesheet" href="/public/manifest.json">
+    <link rel="manifest" href="/public/manifest.json">
 
 
     <!-- CSS -->
@@ -873,7 +873,7 @@
 
 <script>
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/service-worker.js");
+    navigator.serviceWorker.register('/src/service-worker.js');
   }
 </script>
 

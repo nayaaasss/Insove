@@ -4,6 +4,7 @@ self.addEventListener("install", (event) => {
       return cache.addAll([
         "/",
         "/src/index.html/",
+        "/public/manifest.json",
         "/src/main.js",
         "/src/scrollreveal.min.js",
         "/src/swiper-bundle.min.js"
