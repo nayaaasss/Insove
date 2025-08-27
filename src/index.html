@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insove || We care about your health</title>
+    <!-- Manifest.json -->
+    <link rel="stylesheet" href="/public/manifest.json">
+
 
     <!-- CSS -->
     <link rel="stylesheet" href="../public/output.css">
@@ -867,4 +870,11 @@
     <!-- ScrollReveal -->
     <script src="scrollreveal.min.js"></script>
 </body>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js");
+  }
+</script>
+
 </html>
