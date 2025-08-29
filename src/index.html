@@ -871,7 +871,7 @@
     <script src="scrollreveal.min.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/service-worker.js')
+          navigator.serviceWorker.register('/src/service-worker.js')
             .then(function(registration) {
               console.log('Service worker registered with scope:', registration.scope);
             }).catch(function(error) {
